@@ -118,3 +118,5 @@ widgetsnbextension==4.0.10
 numpy==1.24.3
 pandas==2.0.3
 Flask==2.3.2
+# Add this to your requirements.txt or pre-build script:
+pip install --upgrade pip setuptools wheel
