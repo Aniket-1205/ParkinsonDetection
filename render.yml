@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: my-app
-    env: python
-    pythonVersion: "3.10.8"  # Stable version
-    buildCommand: |
-      apt-get update && apt-get install -y python3-dev gcc
-      pip install --upgrade pip setuptools wheel
-      pip install --no-build-isolation -r requirements.txt
